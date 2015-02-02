@@ -2,9 +2,11 @@
 
 if (!defined('DC_RC_PATH')) {return;}
 
+# CHARTE
+$core->url->register('charte', 'charte', 'charte', function() { self::serveDocument('charte.html','text/html'); });
+
 # ACTUALITES
 $core->url->register('actualite', 'actualite', 'actualite', function() { self::serveDocument('actualite.html','text/html'); });
-
 
 # BIOGRAPHIE
 $core->url->register('artiste', 'artiste', 'artiste', function() { self::serveDocument('artiste.html','text/html'); });
