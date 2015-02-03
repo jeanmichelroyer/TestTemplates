@@ -37,3 +37,4 @@ $core->url->register('liens', 'liens', 'liens', function() { self::serveDocument
 $core->url->register('mentions-legales', 'mentions-legales', 'mentions-legales', function() { self::serveDocument('default-templates/mentions-legales.html','text/html'); });
 $core->url->register('plan', 'plan', 'plan', function() { self::serveDocument('default-templates/plan.html','text/html'); });
 $core->url->register('recherche', 'recherche', 'recherche', function() { self::serveDocument('default-templates/recherche.html','text/html'); });
+?>
